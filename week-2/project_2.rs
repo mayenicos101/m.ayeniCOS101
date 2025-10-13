@@ -14,8 +14,8 @@ fn main() {
 
 	}
 
-//Calculate the average sales amount per product. Converting the qty.len() which gives the number as products as 5 to f64 so it matches the data type of total
-let average = total / 12.0 as f64;
+//Calculate the average sales amount.
+let average = total / 12.0;
 
 //Print the total sales amount
 println!("Total Sales Amount = {}", total);
