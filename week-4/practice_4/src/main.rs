@@ -12,7 +12,7 @@ fn main() {
     let age:u32 = input2.trim().parse().expect("Not a valid number");
 
     if age >= 18 {
-        println!("Welcome to the party {}!", input1);
+        println!("Welcome to the party, {}", input1);
     }
     else {
         println!("Oops, you are not of age to enter the party {}", input1);
