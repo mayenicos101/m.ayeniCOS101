@@ -1,6 +1,6 @@
 fn main() {
     // addition
-    let sum:i32 = 5550 + 7310;
+    let sum:u32 = 5550 + 7310;
     println!("The sum of 5550 and 7310 = {}", sum);
 
     // subtraction
