@@ -82,6 +82,6 @@ fn main() {
             } 
         } 
     }
-    println!("Your final total is N{}", grand_total);
+    println!("Your grand total is N{}", grand_total);
     println!("Thank you for ordering at Bose's Kitchenette!");
 }
