@@ -62,7 +62,7 @@ fn main() {
 
         let cost = price * quantity;
         grand_total += cost;
-        println!("Ordered {} x {} = N{}", quantity, item_name, cost);
+        println!("Ordered {}x {} = N{}", quantity, item_name, cost);
         println!("Current order cost: N{}", cost);
         println!("Grand total so far: N{}", grand_total);
 
